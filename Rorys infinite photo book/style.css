@@ -1,0 +1,35 @@
+/* Basic styling for the form */
+form {
+    display: flex; /* Arrange elements horizontally */
+    flex-direction: column; /* Stack elements on top */
+    width: fit-content; /* Adjust width to content */
+    margin: 2rem auto; /* Add some margin for spacing */
+    padding: 1rem; /* Add some padding for aesthetics */
+    border: 1px solid #ddd; /* Create a light border */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Style the input fields */
+  input[type="text"],
+  input[type="email"] {
+    width: 100%; /* Make inputs full width */
+    padding: 0.5rem 1rem; /* Add padding for better look */
+    margin-bottom: 1rem; /* Add space between inputs */
+    border: 1px solid #ccc; /* Create borders */
+    border-radius: 3px; /* Add some rounded corners */
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 0.7rem 1.5rem; /* Add padding for button size */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to indicate clickability */
+  }
+  
+  /* Style the button on hover for better interactivity */
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /* Darken green on hover */
+  }
